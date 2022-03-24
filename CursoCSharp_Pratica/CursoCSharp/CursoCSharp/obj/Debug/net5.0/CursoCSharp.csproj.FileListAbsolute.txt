@@ -1,0 +1,16 @@
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.exe
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.deps.json
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.runtimeconfig.json
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.runtimeconfig.dev.json
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.dll
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\bin\Debug\net5.0\CursoCSharp.pdb
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.csproj.AssemblyReference.cache
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.AssemblyInfoInputs.cache
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.AssemblyInfo.cs
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.csproj.CoreCompileInputs.cache
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.dll
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\refint\CursoCSharp.dll
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.pdb
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.genruntimeconfig.cache
+C:\Users\julio.santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\ref\CursoCSharp.dll
