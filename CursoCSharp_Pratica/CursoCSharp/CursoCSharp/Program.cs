@@ -14,6 +14,7 @@ namespace CursoCSharp
                 {"Fundamentos - Variaveis e Constantes", VariaveisEConstantes.Executar},
                 {"Fundamentos - Interpolação", Interpolacao.Executar},
                 {"Fundamentos - Formatação de Números", FormatacaoNumeros.Executar},
+                {"Fundamentos - Conversões", Conversoes.Executar},
             });
 
             central.SelecionarEExecutar();
