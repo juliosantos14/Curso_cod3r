@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Junior\\.nuget\\packages\\": {}
+    "C:\\Users\\Julio Santos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Junior\\OneDrive\\Estudos\\cod3r\\curso-c-sharp\\CursoCSharp_Pratica\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
+      "projectUniqueName": "C:\\Users\\Julio Santos\\OneDrive\\Estudos\\cod3r\\curso-c-sharp\\CursoCSharp_Pratica\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
       "projectName": "CursoCSharp",
-      "projectPath": "C:\\Users\\Junior\\OneDrive\\Estudos\\cod3r\\curso-c-sharp\\CursoCSharp_Pratica\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
-      "packagesPath": "C:\\Users\\Junior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Junior\\OneDrive\\Estudos\\cod3r\\curso-c-sharp\\CursoCSharp_Pratica\\CursoCSharp\\CursoCSharp\\obj\\",
+      "projectPath": "C:\\Users\\Julio Santos\\OneDrive\\Estudos\\cod3r\\curso-c-sharp\\CursoCSharp_Pratica\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
+      "packagesPath": "C:\\Users\\Julio Santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Julio Santos\\OneDrive\\Estudos\\cod3r\\curso-c-sharp\\CursoCSharp_Pratica\\CursoCSharp\\CursoCSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Junior\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Julio Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -55,12 +55,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.17, 5.0.17]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[5.0.0, 5.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
