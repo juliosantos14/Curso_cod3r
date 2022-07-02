@@ -12,7 +12,7 @@ namespace CursoCSharp
                 {"Primeiro Programa - Fundamentos", FirstProgram.Executar } ,
                 {"Comentários - Fundamentos", Comentarios.Executar},
                 {"Variaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
-                {"Fundamentos - Interpolação", Interpolacao.Executar},
+                {"Interpolação - Fundamentos", Interpolacao.Executar},
                 {"Fundamentos - Formatação de Números", FormatacaoNumeros.Executar},
                 {"Fundamentos - Conversões", Conversoes.Executar},
                 {"Fundamentos - Operadores Aritméticos", OperadoresAritmeticos.Executar},
