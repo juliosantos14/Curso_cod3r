@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos
 {
-    internal class FirstProgram
+    public class Inferencia
     {
         public static void Executar()
         {
-            Console.Write("Teste 1");
-            Console.WriteLine("Teste 2");
-            Console.WriteLine("Teste 3");
+
         }
     }
 }

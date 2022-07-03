@@ -33,6 +33,9 @@ namespace CursoCSharp.Fundamentos
             long MaxLong = long.MaxValue;
             long MinLong = long.MinValue;
 
+            uint MaxUint = uint.MaxValue;
+            uint MinUint = uint.MinValue;
+
             Console.WriteLine("\nMinimo Sbyte: " + MinSByte + ", Máximo: " + MaxSByte);            
 
             Console.WriteLine("\nMinímo Byte: " + MinByte + ", Máximo: " + MaxByte);            
@@ -42,6 +45,12 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine($"\nMinímo Int: {MinInt}, Máximo: {MaxInt}");
 
             Console.WriteLine($"\nMinímo Long: {MinLong}, Máximo: {MaxLong}");
+
+            Console.WriteLine($"\nMinímo Long: {MinUint}, Máximo: {MaxUint}");
+
+            
+
+
 
             float precoComputador = 1299.99f;
             

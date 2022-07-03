@@ -10,8 +10,17 @@ namespace CursoCSharp.Fundamentos
     {
         public static void Executar()
         {
+            
             //Cuidado com comentários desnecessários
             Console.WriteLine("Código Claro é sempre melhor!");
+
+
+            /*
+             *
+             *
+             *
+             *
+             */
 
         }
     }
