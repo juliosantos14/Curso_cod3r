@@ -10,7 +10,8 @@ namespace CursoCSharp.Fundamentos
     {
         public static void Executar()
         {
-
+            var nome = "Julio";
+            Console.WriteLine(nome);
         }
     }
 }
