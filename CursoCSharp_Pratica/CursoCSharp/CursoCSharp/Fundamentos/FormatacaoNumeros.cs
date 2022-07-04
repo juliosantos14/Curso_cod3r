@@ -23,7 +23,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine(valor.ToString("C", cultura));
 
             int inteiro = 256;
-            Console.WriteLine(inteiro.ToString("D10"));
+            Console.WriteLine(inteiro.ToString("D10"));//Numeros a esquerda
         }
     }
 }
