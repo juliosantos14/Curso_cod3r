@@ -21,7 +21,6 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine("O total com desconto é R$ {0}", totalComDesconto);
 
             //Calculo IMC
-
             double peso = 77.7;
             double altura = 1.82;
             double imc = peso / Math.Pow(altura, 2);
