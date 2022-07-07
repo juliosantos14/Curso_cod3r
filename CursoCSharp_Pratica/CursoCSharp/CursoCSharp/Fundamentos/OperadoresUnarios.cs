@@ -10,7 +10,7 @@ namespace CursoCSharp.Fundamentos
     {
         public static void Executar()
         {
-
+             
         }
     }
 }
