@@ -25,7 +25,7 @@ namespace CursoCSharp
                 {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternário - Fundamentos", OperadorTernario.Executar},        
-                
+                 
                 //Classes e Metodos
 
                 //Estruturas de controle
