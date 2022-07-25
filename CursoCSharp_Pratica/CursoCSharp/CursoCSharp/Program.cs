@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp
 {
@@ -24,13 +25,13 @@ namespace CursoCSharp
                 {"Operadores Relacionais - Fundamentos", OperadoresRelacionais.Executar},
                 {"Operadores de Atribuição - Fundamentos", OperadoresAtribuicao.Executar},
                 {"Operadores Unários - Fundamentos", OperadoresUnarios.Executar},
-                {"Operador Ternário - Fundamentos", OperadorTernario.Executar},        
+                {"Operador Ternário - Fundamentos", OperadorTernario.Executar},                  
+                
+                //Estruturas de controle
+                {"Operador Ternário - Estruturas de Controle", EstruturaIf.Executar},
                  
                 //Classes e Metodos
-
-                //Estruturas de controle
-                {"Operador Ternário - Fundamentos", EstruturaIf.Executar},
-
+                {"Membros - Classes e Metódos", Membros.Executar}
             });
 
             central.SelecionarEExecutar();
