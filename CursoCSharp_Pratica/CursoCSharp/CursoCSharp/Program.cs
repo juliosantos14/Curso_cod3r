@@ -31,7 +31,8 @@ namespace CursoCSharp
                 {"Operador Ternário - Estruturas de Controle", EstruturaIf.Executar},
                  
                 //Classes e Metodos
-                {"Membros - Classes e Metódos", Membros.Executar}
+                {"Membros - Classes e Metódos", Membros.Executar},
+                {"Construtor - Classes e Metódos", Construtor.Executar},
             });
 
             central.SelecionarEExecutar();
