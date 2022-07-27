@@ -33,13 +33,32 @@ namespace CursoCSharp.MetodosEFuncoes
             {
                 Marca = marca;
             }
+
+            public string GetModelo()
+            {
+                return Modelo;
+            }
+            public void SetModelo(string modelo)
+            {
+                Modelo = modelo;
+            }
+
+            public int GetCilindradas()
+            {
+                return Cilindradas;
+            }                      
+            
+            public void SetCilindradas(int cilindradas)
+            {
+                Cilindradas = cilindradas;
+            }
         }
         public static void Executar()
         {
-            Moto moto1 = new Moto();
-            moto1.SetMarca("Yamaha");
+            Moto moto1 = new Moto(marca:"Yamaha", modelo:"MT-03", cilindradas:250);
             Console.WriteLine(moto1.GetMarca());
-            
+            Console.WriteLine(moto1.GetModelo());
+            Console.WriteLine(moto1.GetCilindradas());
         }
     }
 }
