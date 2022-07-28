@@ -12,17 +12,20 @@ namespace CursoCSharp.MetodosEFuncoes
         {
             private string Marca;
             private string Modelo;
-            private int Cilindradas;
+            private uint Cilindradas;
 
             public Moto()
             {
             }
 
-            public Moto(string marca, string modelo, int cilindradas)
+            public Moto(string marca, string modelo, uint cilindradas)
             {
-                Marca = marca;
-                Modelo = modelo;
-                Cilindradas = cilindradas;
+                //Marca = marca;
+                //Modelo = modelo;
+                //Cilindradas = cilindradas;
+                SetMarca(marca);
+                SetModelo(modelo);
+                SetCilindradas(cilindradas);
             }
 
             public string GetMarca()
@@ -43,22 +46,38 @@ namespace CursoCSharp.MetodosEFuncoes
                 Modelo = modelo;
             }
 
-            public int GetCilindradas()
+            public uint GetCilindradas()
             {
                 return Cilindradas;
             }                      
             
-            public void SetCilindradas(int cilindradas)
+            public void SetCilindradas(uint cilindradas)
             {
-                Cilindradas = cilindradas;
+                //Primeira Opção
+                //if (cilindradas > 0)
+                //{
+                //    Cilindradas = cilindradas;
+                //}
+
+                //Segunda Opção
+                //Cilindradas = Math.Abs(cilindradas);   
+
+                Cilindradas = cilindradas;                
             }
         }
         public static void Executar()
         {
-            Moto moto1 = new Moto(marca:"Yamaha", modelo:"MT-03", cilindradas:250);
+            Moto moto1 = new Moto(marca:"Yamaha", modelo:"MT-03", cilindradas:635);
             Console.WriteLine(moto1.GetMarca());
             Console.WriteLine(moto1.GetModelo());
             Console.WriteLine(moto1.GetCilindradas());
+
+            var moto2 = new Moto();
+            moto2.SetMarca("Honda");
+            moto2.SetModelo("CB300");
+            moto2.SetCilindradas(300);
+
+            Console.WriteLine("Marca: " + moto2.GetMarca() + "\nModelo: " + moto2.GetModelo() + "\nCilindradas: " + moto2.GetCilindradas());
         }
     }
 }
