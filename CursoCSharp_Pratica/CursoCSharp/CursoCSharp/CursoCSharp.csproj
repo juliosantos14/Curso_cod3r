@@ -8,7 +8,6 @@
   <ItemGroup>
     <Folder Include="Api\" />
     <Folder Include="ClassesEMetodos\" />
-    <Folder Include="Colecoes\" />
     <Folder Include="TopicosAvancados\" />
     <Folder Include="OO\" />
   </ItemGroup>
