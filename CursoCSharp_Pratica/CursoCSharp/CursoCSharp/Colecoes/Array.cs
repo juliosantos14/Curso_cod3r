@@ -39,7 +39,7 @@ namespace CursoCSharp.Colecoes
 
             char[] Letras = { 'A', 'B', 'C', 'D' };
             string Palavra = new string(Letras);
-            Console.WriteLine(Palavra);
+            Console.WriteLine(Palavra); 
         }
     }
 }
