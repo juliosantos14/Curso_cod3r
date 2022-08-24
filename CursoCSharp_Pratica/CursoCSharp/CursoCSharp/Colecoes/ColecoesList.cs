@@ -20,8 +20,9 @@ namespace CursoCSharp.Colecoes
         }
         public static void Executar()
         {
-            var Livroi = new Produto("Game of Thrones", 149.99);
+            var Livro = new Produto("Game of Thrones", 149.99);
             var Carrinho = new List<Produto>();
+            Carrinho.Add(Livro);
 
             var combo = new List<Produto>
             {
@@ -32,6 +33,7 @@ namespace CursoCSharp.Colecoes
 
             Carrinho.AddRange(combo);
             Console.WriteLine(Carrinho.Count);
+            Carrinho.RemoveAt(3);
         }
     }
 }
