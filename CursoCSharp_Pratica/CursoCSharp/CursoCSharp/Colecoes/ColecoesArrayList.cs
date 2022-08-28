@@ -20,7 +20,7 @@ namespace CursoCSharp.Colecoes
 
             foreach (var item in arrayList)
             {
-                Console.WriteLine(arrayList.);
+                Console.WriteLine($"{item} => {item.GetType()}");
             }
         }
     }
