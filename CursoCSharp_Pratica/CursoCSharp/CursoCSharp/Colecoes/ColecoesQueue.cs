@@ -16,7 +16,7 @@ namespace CursoCSharp.Colecoes
             fila.Enqueue("Abilene");
             fila.Enqueue("Clayton");
 
-            Console.WriteLine(fila.Peek()); 
+            Console.WriteLine(fila.Peek());
         }
     }
 }
