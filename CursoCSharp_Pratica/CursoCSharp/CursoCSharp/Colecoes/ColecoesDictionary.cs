@@ -39,16 +39,21 @@ namespace CursoCSharp.Colecoes
 
             Console.WriteLine();
 
-            foreach (var valor in filmes.Keys)
+            foreach (var valor in filmes.Values)
             {
                 Console.WriteLine(valor);
+                Console.WriteLine();
             }
-
-            Console.WriteLine();
 
             foreach (KeyValuePair<int, string>filme in filmes)
             {
-                Console.WriteLine("{0} é de {1}", filme.Value, filme.Key);
+                Console.WriteLine("{0} é de {1}", filme.Value, filme.Key);                
+            }
+            Console.WriteLine();
+
+            foreach (var chaveValor in filmes)
+            {
+                Console.WriteLine($"{chaveValor.Value} é do ano de {chaveValor.Key}");
             }
         }
     }
