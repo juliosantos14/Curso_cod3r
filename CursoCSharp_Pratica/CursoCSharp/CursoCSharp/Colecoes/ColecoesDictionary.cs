@@ -29,7 +29,7 @@ namespace CursoCSharp.Colecoes
 
             Console.WriteLine("Removeu? {0}", filmes.Remove(2004));// Remove o valor conforme chave selecionada e retorna Verdadeiro ou Falso
             Console.WriteLine();
-
+             
 
             //Percorrer entre as chaves
             foreach (var chave in filmes.Keys)
