@@ -10,6 +10,15 @@ namespace CursoCSharp.OO
     {
         protected readonly int VelocidadeMaxima;
         int VelocidadeAtual;
+
+        public Carro(int velocidadeMaxima)
+        {
+            VelocidadeMaxima = velocidadeMaxima;    
+        }
+        protected int AlterarVelocidade(int delta)
+        {
+
+        }
     }
     public class Heranca
     {
