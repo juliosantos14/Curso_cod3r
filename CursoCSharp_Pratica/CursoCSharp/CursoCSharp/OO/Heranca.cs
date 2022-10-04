@@ -17,6 +17,37 @@ namespace CursoCSharp.OO
         }
         protected int AlterarVelocidade(int delta)
         {
+            int novaVelocidade = VelocidadeAtual + delta;
+
+            if (novaVelocidade < 0)
+            {
+                VelocidadeAtual = 0;
+            }else if(novaVelocidade > VelocidadeMaxima)
+            {
+                VelocidadeAtual = VelocidadeMaxima;
+            }
+            else
+            {
+                VelocidadeAtual = novaVelocidade;
+            }
+
+            return VelocidadeAtual;
+        }
+
+        public int Acelerar()
+        {
+            return AlterarVelocidade(5);
+        }
+        public int Frear()
+        {
+            return AlterarVelocidade(-5);
+        }
+    }
+
+    public class Uno : Carro
+    {
+        public Uno() : base(200)
+        {
 
         }
     }
