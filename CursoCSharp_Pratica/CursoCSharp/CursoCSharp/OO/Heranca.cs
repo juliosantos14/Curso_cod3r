@@ -48,7 +48,7 @@ namespace CursoCSharp.OO
     {
         public Uno() : base(200)
         {
-
+             
         }
     }
     public class Heranca
