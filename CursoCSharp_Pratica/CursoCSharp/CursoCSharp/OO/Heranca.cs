@@ -34,7 +34,7 @@ namespace CursoCSharp.OO
             return VelocidadeAtual;
         }
 
-        public int Acelerar()
+        public virtual int Acelerar()
         {
             return AlterarVelocidade(5);
         }
@@ -51,10 +51,44 @@ namespace CursoCSharp.OO
              
         }
     }
+
+    public class Ferrari : Carro
+    {
+        public Ferrari() : base(450)
+        {
+
+        }
+
+        public override int Acelerar()
+        {
+            return AlterarVelocidade(15);
+        }
+
+        public new int Frear()
+        {
+            return AlterarVelocidade(-15);
+        }
+    }
+
     public class Heranca
     {
         public static void Executar()
         {
+            Console.WriteLine("Uno...");
+            var carro1 = new Uno();            
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Frear());
+            Console.WriteLine(carro1.Acelerar());
+
+            Console.WriteLine("\nFerrari...");
+            var carro2 = new Ferrari();
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Frear());
+            Console.WriteLine(carro2.Acelerar());
 
         }
     }
