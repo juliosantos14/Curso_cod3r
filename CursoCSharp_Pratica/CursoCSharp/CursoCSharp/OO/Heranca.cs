@@ -90,6 +90,9 @@ namespace CursoCSharp.OO
             Console.WriteLine(carro2.Frear());
             Console.WriteLine(carro2.Acelerar());
 
+            Console.WriteLine("\nFerrari com tipo carro...");
+            Carro carro3 = new Ferrari();
+
         }
     }
 }
