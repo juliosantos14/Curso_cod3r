@@ -92,7 +92,21 @@ namespace CursoCSharp.OO
 
             Console.WriteLine("\nFerrari com tipo carro...");
             Carro carro3 = new Ferrari();
-
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+                    
+            Console.WriteLine("\nUno com tipo carro...");
+            carro3 = new Uno();
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
         }
     }
 }

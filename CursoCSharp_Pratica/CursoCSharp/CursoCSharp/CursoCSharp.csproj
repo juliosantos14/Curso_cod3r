@@ -9,7 +9,6 @@
     <Folder Include="Api\" />
     <Folder Include="ClassesEMetodos\" />
     <Folder Include="TopicosAvancados\" />
-    <Folder Include="OO\" />
   </ItemGroup>
 
 </Project>

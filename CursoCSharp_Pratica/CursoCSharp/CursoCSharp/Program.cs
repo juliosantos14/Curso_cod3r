@@ -63,6 +63,7 @@ namespace CursoCSharp
 
                 //OO
                 {"Herança - OOP", Heranca.Executar},
+                {"Construtor This - OOP", ConstrutorThis.Executar},
 
             });
 
