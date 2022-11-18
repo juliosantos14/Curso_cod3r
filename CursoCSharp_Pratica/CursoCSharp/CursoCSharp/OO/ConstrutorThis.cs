@@ -26,7 +26,7 @@ namespace CursoCSharp.OO
             Console.WriteLine($"Cachorro {nome} instanciado");
         }
 
-        public Cachorro (double altura, string nome) : this(nome)
+        public Cachorro (string nome, double altura) : this(nome)
         {
             Altura = altura;
         }
@@ -41,7 +41,11 @@ namespace CursoCSharp.OO
     {
         public static void Executar()
         {
+            var spike = new Cachorro("Spike");
+            var max = new Cachorro("Max", 40.0);
 
+            Console.WriteLine(spike);
+            Console.WriteLine(max);
         }
     }
 }
