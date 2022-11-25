@@ -46,3 +46,6 @@ C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\C
 C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.pdb
 C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.genruntimeconfig.cache
 C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\ref\CursoCSharp.dll
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\bin\Debug\net5.0\Encapsulamento.dll
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\bin\Debug\net5.0\Encapsulamento.pdb
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\CursoCSharp\obj\Debug\net5.0\CursoCSharp.csproj.CopyComplete

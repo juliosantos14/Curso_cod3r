@@ -1,0 +1,12 @@
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\bin\Debug\net5.0\Encapsulamento.deps.json
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\bin\Debug\net5.0\Encapsulamento.dll
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\bin\Debug\net5.0\Encapsulamento.pdb
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\Encapsulamento.csproj.AssemblyReference.cache
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\Encapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\Encapsulamento.AssemblyInfoInputs.cache
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\Encapsulamento.AssemblyInfo.cs
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\Encapsulamento.csproj.CoreCompileInputs.cache
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\Encapsulamento.dll
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\refint\Encapsulamento.dll
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\Encapsulamento.pdb
+C:\Users\Julio Santos\OneDrive\Estudos\cod3r\curso-c-sharp\CursoCSharp_Pratica\CursoCSharp\Encapsulamento\obj\Debug\net5.0\ref\Encapsulamento.dll
