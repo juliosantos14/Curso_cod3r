@@ -6,34 +6,53 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.OO
 {
-    public class Feijao
+    public class Comida
     {
         public double Peso;
+
+        public Comida(double peso)
+        {
+            Peso = peso;
+        }
+        public Comida()
+        {
+
+        }
     }
-    public class Arroz
+
+    public class Feijao : Comida
     {
-        public double Peso;
+        
     }
-    public class Carne
+    public class Arroz : Comida
     {
-        public double Peso;
+
+    }
+    public class Carne : Comida
+    {
+       
     }
 
     public class Pessoa
     {
         public double Peso;
 
-        public void Comer(Feijao feijao)
+        //public void Comer(Feijao feijao)
+        //{
+        //    Peso += feijao.Peso;
+        //}
+        //public void Comer(Arroz arroz)
+        //{
+        //    Peso += arroz.Peso;
+        //}
+        //public void Comer(Carne carne)
+        //{
+        //    Peso += carne.Peso;
+        //}
+
+        public void Comer(Comida comida)
         {
-            Peso+=feijao.Peso;
-        } 
-        public void Comer(Arroz arroz)
-        {
-            Peso+=arroz.Peso;
-        } 
-        public void Comer(Carne carne)
-        {
-            Peso+=carne.Peso;
+            Peso += comida.Peso;
         }
     }
     class Polimorfismo
@@ -49,13 +68,13 @@ namespace CursoCSharp.OO
             Carne ingrediente3 = new Carne();
             ingrediente3.Peso = 0.3;
 
-            Pessoa cliente1= new Pessoa();
+            Pessoa cliente1 = new Pessoa();
             cliente1.Peso = 80.2;
             cliente1.Comer(ingrediente1);
             cliente1.Comer(ingrediente2);
             cliente1.Comer(ingrediente3);
 
-            Console.WriteLine($"Agora o peso do cliente é {0}", cliente1.Peso);
+            Console.WriteLine("Agora o peso do cliente é {0} Kg!", cliente1.Peso);
         }
     }
 }
