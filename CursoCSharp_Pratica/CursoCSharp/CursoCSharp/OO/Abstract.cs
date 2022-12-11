@@ -16,7 +16,7 @@ namespace CursoCSharp.OO
         }
     }
 
-    public class Samsung : Celular
+    public class Samsung : Celular 
     {
         public override string Assistente()
         {
