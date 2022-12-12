@@ -17,28 +17,28 @@ namespace CursoCSharp.OO
     }
 
     public class Samsung : Celular 
-    {
-        public override string Assistente()
+    { 
+        public override string Assistente() 
         {
             return "Olá, meu nome é Bixby!";
-        }
+        } 
     }
     public class Iphone : Celular
-    {
-        public override string Assistente()
+    { 
+        public override string Assistente() 
         {
             return "Olá, meu nome é Siri!";
-        }
+        } 
     }
 
-
+     
     internal class Abstract
     {
         public static void Executar()
-        {
+        { 
             var celulares = new List<Celular>
             {
-                new Iphone(),
+                new Iphone(),    
                 new Samsung()
             };
 
