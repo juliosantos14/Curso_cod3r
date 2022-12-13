@@ -68,6 +68,7 @@ namespace CursoCSharp
                 {"Polimorfismo - OOP", OO.Polimorfismo.Executar},
                 {"Classe Abstrata - OOP", Abstract.Executar},
                 {"Interface - OOP", Interface.Executar},
+                {"Classe e metodo Sealed - OOP", Sealed.Executar},
 
             });
 
