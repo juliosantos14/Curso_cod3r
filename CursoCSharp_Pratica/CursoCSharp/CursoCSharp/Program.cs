@@ -5,6 +5,7 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp
 {
@@ -32,7 +33,7 @@ namespace CursoCSharp
                 //Estruturas de controle
                 {"Estrutura IF - Estruturas de Controle", EstruturaIf.Executar},
                  
-                //Classes e Metodos
+                //Classes e Metodos (Pasta MetodosEFuncoes)
                 {"Membros - Classes e Métodos", Membros.Executar},
                 {"Construtor - Classes e Métodos", Construtor.Executar},
                 {"Metodos Com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
@@ -70,9 +71,14 @@ namespace CursoCSharp
                 {"Interface - OOP", Interface.Executar},
                 {"Classe e metodo Sealed - OOP", Sealed.Executar},
 
-            });
+                //Metodos E Funções (Pasta ClassesEMetodos)
+                {"Expressão Lambda - Métodos e Funções", ExemploLambda.Executar },
+                {"Delegade Lambda - Métodos e Funções", LambdasDelegate.Executar },
 
-            central.SelecionarEExecutar();
+
+            }); central.SelecionarEExecutar();
+
+
         }
     }
 }
