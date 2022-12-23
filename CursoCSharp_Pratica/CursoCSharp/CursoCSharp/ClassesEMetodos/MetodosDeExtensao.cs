@@ -20,7 +20,7 @@ namespace CursoCSharp.ClassesEMetodos
     }
     class MetodosDeExtensao
     {
-        public static void Executar()
+        public static void Executar() 
         {
             int numero = 6;
             Console.WriteLine(numero.Soma(3));
