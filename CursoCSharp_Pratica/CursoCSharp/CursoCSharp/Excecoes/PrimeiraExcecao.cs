@@ -10,7 +10,7 @@ namespace CursoCSharp.Excecoes
     {
         public static void Executar()
         {
-            f
+            
         }
     }
 }
