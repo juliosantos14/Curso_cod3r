@@ -6,6 +6,9 @@ using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Excecoes;
+using static CursoCSharp.Excecoes.NegativoException;
+using CursoCSharp.Api;
 
 namespace CursoCSharp
 {
@@ -33,7 +36,7 @@ namespace CursoCSharp
                 //Estruturas de controle
                 {"Estrutura IF - Estruturas de Controle", EstruturaIf.Executar},
                  
-                //Classes e Metodos (Pasta MetodosEFuncoes)
+                //Classes e Metodos
                 {"Membros - Classes e Métodos", Membros.Executar},
                 {"Construtor - Classes e Métodos", Construtor.Executar},
                 {"Metodos Com Retorno - Classes e Métodos", MetodosComRetorno.Executar},
@@ -71,13 +74,20 @@ namespace CursoCSharp
                 {"Interface - OOP", Interface.Executar},
                 {"Classe e metodo Sealed - OOP", Sealed.Executar},
 
-                //Metodos E Funções (Pasta ClassesEMetodos)
+                //Metodos E Funções 
                 {"Expressão Lambda - Métodos e Funções", ExemploLambda.Executar },
                 {"Delegate Lambda - Métodos e Funções", LambdasDelegate.Executar },
                 {"Usando Delegate - Métodos e Funções", UsandoDelegates.Executar },
                 {"Delegate com FUnções Anonimas - Métodos e Funções", DelegateFuncAnonima.Executar },
                 {"Delegate como parametros - Métodos e Funções", DelegatesComoParametro.Executar },
                 {"Métodos de Extensão - Métodos e Funções", MetodosDeExtensao.Executar },
+                
+                //Exceções
+                {"Primeira Exceção - Exceções", PrimeiraExcecao.Executar },
+                {"Exceções Personalizadas - Exceções", ExcecoesPersonalizadas.Executar },
+
+                //API
+                {"Primeiro Arquivo - API", PrimeiroArquivo.Executar },
 
 
             }); central.SelecionarEExecutar();
