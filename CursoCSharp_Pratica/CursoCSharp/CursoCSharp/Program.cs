@@ -9,6 +9,7 @@ using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Excecoes;
 using static CursoCSharp.Excecoes.NegativoException;
 using CursoCSharp.Api;
+using CursoCSharp.TopicosAvancados;
 
 namespace CursoCSharp
 {
@@ -88,7 +89,12 @@ namespace CursoCSharp
 
                 //API
                 {"Primeiro Arquivo - API", PrimeiroArquivo.Executar },
+                {"Lendo Arquivos - API", LendoArquivos.Executar },
+                {"Exemplo FileInfo - API", ExemploFileInfo.Executar },
 
+
+                //Topicos Avançados
+                {"LINQ - Tópicos Avançados", LINQ1.Executar },
 
             }); central.SelecionarEExecutar();
 
