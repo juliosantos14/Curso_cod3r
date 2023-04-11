@@ -43,6 +43,22 @@ namespace CursoCSharp.TopicosAvancados
                 Console.WriteLine(aluno);
             }
 
+            Console.WriteLine("\n== Aprovados por Idade");
+            var aprovadorPorIdade = alunos.Where(a => a.Nota > 7).OrderBy(a => a.Nota);
+            var alunosAprovados =
+                from aluno in alunos
+                where aluno.Nota >= 7
+                orderby aluno.Idade
+                select aluno.Nome;
+
+            foreach (var aluno in aprovadorPorIdade)
+            {
+                Console.WriteLine(aluno.Nome + ", Nota = " + aluno.Nota);
+            }
+            foreach (var aluno in alunosAprovados)
+            {
+                Console.WriteLine(aluno);
+            }
         }
     }
 }

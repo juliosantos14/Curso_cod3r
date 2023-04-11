@@ -27,6 +27,7 @@ namespace CursoCSharp.Api
             Console.WriteLine(origem.Extension);
 
             origem.CopyTo(caminhoCopia);
+            origem.MoveTo(caminhoDestino);
         }
     }
 }
