@@ -22,7 +22,7 @@ namespace CursoCSharp.TopicosAvancados
             };
 
             var pedro = alunos.Single(a => a.Nome.Equals("Pedro"));
-            Console.WriteLine($"{pedro.Nome}, {pedro.Nota}");
+            Console.WriteLine($"{pedro.Nome}, {pedro.Nota}"); 
         }
     }
 }
