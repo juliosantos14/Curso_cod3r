@@ -27,12 +27,23 @@ namespace CursoCSharp.TopicosAvancados
             Console.WriteLine($"{pedro.Nome}, {pedro.Nota}");
 
             var fulano = alunos.SingleOrDefault(a => a.Nome.Equals("Fulano"));
+            Console.WriteLine(fulano);
             if (fulano == null)
             {
                 Console.WriteLine("Aluno Inexistente");
-
-
             };
-    }
+
+            //Se ana não existir então será retornado um erro
+            var ana = alunos.First(aluno => aluno.Nome.Equals("Ana"));
+            Console.WriteLine(ana.Nota);
+
+            
+            //Se ana2 nao existir será retornado NULL
+            var ana2 = alunos.FirstOrDefault(a => a.Nome.Equals("Ana2"));
+            if (ana2 == null)
+            {
+                Console.WriteLine("Aluno inexistente");
+            }
+        }
 }
 }
