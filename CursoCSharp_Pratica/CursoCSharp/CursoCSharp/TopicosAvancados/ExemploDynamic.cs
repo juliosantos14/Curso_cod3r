@@ -10,7 +10,11 @@ namespace CursoCSharp.TopicosAvancados
     {
         public static void Executar()
         {
+            dynamic meuObjeto = "Teste";
+            meuObjeto = 3;
 
+            meuObjeto++;
+            Console.WriteLine(meuObjeto);
         }
     }
 }
